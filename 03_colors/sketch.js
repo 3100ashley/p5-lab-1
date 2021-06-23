@@ -13,7 +13,7 @@ function setup() {
     background(255);
     
     // Bright red -> change my fill!
-    fill(255,0,0);
+    fill(255,0,0,10);
     ellipse(100,100,100,100);
   
     // Dark red -> change my fill!

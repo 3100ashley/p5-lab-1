@@ -41,7 +41,11 @@ function draw() {
 // }
 
 function keyPressed(){
+  console.log(keyCode)
   if (keyCode === RIGHT_ARROW) {
     d += 200;
+  }
+  if(keyCode === LEFT_ARROW){
+    d = d - 200;
   }
 }

@@ -3,12 +3,14 @@
 
 function setup() {
     createCanvas(480, 270);
-    stroke('black'); 
-    fill('green');
+    stroke('red'); 
+    strokeWeight(4)
+    noFill('blue');
   }
   
   function draw() {
     background(255);
-    rect(50,50,75,100);
+    rect(100,100,75,100);
     ellipse(60,60,100,100);
+    triangle(30, 75, 58, 20, 86, 75);
   }

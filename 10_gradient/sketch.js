@@ -10,7 +10,7 @@ function setup() {
 
 function draw() { 
   var percentage = map(mouseX, 0, width, 0, 1);
-  var color = lerpColor(color1, color2, percentage);
+  var color = lerpColor(color2, color1, percentage);
   stroke(250);
   fill(color);
   ellipse(mouseX, mouseY, 50,50);

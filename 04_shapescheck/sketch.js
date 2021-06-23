@@ -5,8 +5,8 @@
 // Example 1-5: Zoog
 function setup() {
     createCanvas(480, 270);
-    ellipseMode(CENTER);
-    rectMode(CENTER); 
+    ellipseMode(RADIUS);
+    rectMode(RADIUS); 
   }
   
   function draw() {
@@ -15,7 +15,7 @@ function setup() {
   
     // Body
     stroke(0);
-    fill(150);
+    fill("pink");
     rect(240, 145, 20, 100);
   
     // Head

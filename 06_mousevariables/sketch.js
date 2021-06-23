@@ -13,5 +13,10 @@ function setup() {
 
 function draw() {
     background(backgroundcol);
-    ellipse(20, 30, length, length);
+    if (mouseIsPressed) {
+        stroke('red');
+    } else {
+        stroke('green');
+    }
+    ellipse(20, 30, mouseX, mouseY);
 }

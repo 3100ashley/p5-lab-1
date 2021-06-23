@@ -5,5 +5,18 @@ function setup() {
 }
 
 function draw() {
-    //add code!
+    
+    circle(mouseX,mouseY,400);
+    fill("#73a8b2");
+    noStroke();
+
+    if(mouseIsPressed){
+        fill("white");
+        
+    }
+
+
 }
+
+
+
